@@ -4,7 +4,7 @@ namespace Infrastructure.Interfaces;
 
 public interface IProductService
 {
-    AnswerOutcome<Product> AddProduct(Product product);
-    AnswerOutcome<IEnumerable<Product>> GetAllProducts();
+    ProductResult<Product> AddProduct(Product product);
+    ProductResult<IEnumerable<Product>> GetAllProducts();
 
 }
