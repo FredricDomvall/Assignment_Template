@@ -3,6 +3,6 @@
 public class ProductResult<T>
 {
     public bool IsSuccess { get; set; }
-    public string Response { get; set; } = null!;
+    public string? Response { get; set; }
     public T? Content { get; set; }
 }
